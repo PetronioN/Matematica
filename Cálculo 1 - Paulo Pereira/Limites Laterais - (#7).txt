@@ -1,0 +1,73 @@
+Limite lateral é o limite que vai vir pela direita
+ou pela esquerda, por isso <strong>Lateral</strong>.
+
+Quando eu venho pela esquerda, eu vou identificar
+isso com o sinal de menos (-), quando eu venho
+pela direita, eu vou identificar isso com o sinal
+de mais (+). Isso não interfere no número ser
+positivo ou negativo.
+
+lim f-	= L₁
+x → x₀	  
+
+lim f+	= L₂
+x → x₀	
+
+lim f	= ∄ 
+x → x₀
+
+Se eu penso de modo global, quando x₀ tende a 
+terceira função, ela se torna inexistente porque
+para que exista o limite, o L₁ precisa ser igual
+ao L₂.
+
+Ex.: f(x) = 1 + √x - 3
+
+a) lim f(x)	= 1 + √3 - 3 => 1
+   x → 3+
+
+b) lim f(x)	= ∄
+   x → 3-	
+
+Resolução a) Já que tem raiz, eu preciso que x - 3
+≥ 0, ou seja x ≥ 3. Com isso em mãos, posso 
+facilmente substituir o x por 3 no primeiro 
+caso (a). O que temos com a questão é que o x, quando
+com números maiores que ele, tende a 1.
+
+Resolução b) A resolução da b não é real porque
+temos uma raiz de um número negativo. Por exemplo,
+se eu pegar um número que tende a 3, o 2,9, se eu
+colocar ele na raiz, seria: 1 + √2,9 - 3 => 1 + √-0,1
+Isso não é real.
+
+Resolução final) 	∄ lim f(x)
+			x → 3
+
+O limite dessa função se torna inexistente de modo global.
+
+B) { -|x|/x ; x ≠ 0
+   { 1 ; x = 0
+
+lim f , lim f e esboçar o gráfico.
+x → 0   x → 0
+
+|x| = { x ; x ≥ 0
+      { -x ; x < 0
+
+x ≥ 0 → -|x| / x = -x / x = -1
+x < 0 → -|x| / x = -(x) / x = 1
+
+A minha função toda ou vai ser -1 ou 1. Ela vai ser 1 quando
+o x for maior que 0 e vai ser -1 quando o x for menor que 0.
+
+x > 0 → f(x) = -1
+x ≤ 0 → f(x) = 1
+
+lim f	= lim -1 = -1
+x → 0+ 	  x → 0+
+
+lim f	= lim 1 = 1
+x → 0- 	  x → 0+
+
+O limite global não existe porque o L₁ é diferente do L₂.

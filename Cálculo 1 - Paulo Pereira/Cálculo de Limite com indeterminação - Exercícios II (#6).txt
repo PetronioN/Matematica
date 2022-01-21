@@ -1,0 +1,43 @@
+1) 	lim	x + 1 / ∛2x + 3 - 1
+	x → -1
+
+	Você precisa lembrar:
+	(a - b) . (a² + ab + b²) = a³ + b³
+	
+	Meu fator racionalizante é o (a² + ab + b²),
+	ou seja, vou usar ele para multiplicar
+	em cima e em baixo na minha questão.
+
+	∛2x + 3 = a
+	1 = b
+
+	(a² + ab + b²) = (∛2x + 3)² + ∛2x + 3 + 1
+
+	lim	x + 1 . [(∛2x + 3)² + ∛2x + 3 + 1] / ∛2x + 3 - 1 . [(∛2x + 3)² + ∛2x + 3 + 1]
+	x → -1
+	
+	lim	x + 1 . [(∛2x + 3)² + ∛2x + 3 + 1] / 2x + 3 - 1
+	x → -1					      2x + 2 => 2(x + 1)
+
+	O que aconteceu acima foi que eu cortei o x + 1
+	de cima com o x + 1 de baixo, resultando no seguinte
+
+	lim	[(∛2x + 3)² + ∛2x + 3 + 1] / 2
+	x → -1
+
+	Agora eu troco todos os x por -1
+
+	lim	[(∛2 (- 1) + 3)² + ∛2 (- 1) + 3 + 1] / 2
+	x → -1
+
+	lim	[(∛- 2 + 3)² + ∛-2 + 3 + 1] / 2
+	x → -1
+
+	lim	[(∛1)² + ∛1 + 1] / 2
+	x → -1
+
+	lim	[1 + 1 + 1] / 2
+	x → -1
+
+	lim	3 / 2
+	x → -1
