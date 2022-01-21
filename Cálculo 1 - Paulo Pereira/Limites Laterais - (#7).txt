@@ -71,3 +71,5 @@ lim f	= lim 1 = 1
 x → 0- 	  x → 0+
 
 O limite global não existe porque o L₁ é diferente do L₂.
+
+Link: https://www.youtube.com/watch?v=HwHO_w6V_No&list=PLEfwqyY2ox86LhxKybOY3_IG-7R5herLC&index=7
